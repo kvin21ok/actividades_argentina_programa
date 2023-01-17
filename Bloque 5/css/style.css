@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: darkblue ;
+}
+
+h1{
+    color: darkgoldenrod;
+}
+
+p{
+    color: whitesmoke;
+}
+
+@media only screen and (max-width: 756px){
+    body{
+        background-color: darkgoldenrod;
+    }
+
+    h1{
+        color: whitesmoke;
+    }
+
+    p{
+        color: darkblue;
+    }
+}

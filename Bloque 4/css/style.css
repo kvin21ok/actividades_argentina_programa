@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} /** seteo asi para poder manejar estos valores a mi placer */
+
+p, h2{
+    color: red;
+    width: 300px;
+}
+
+h1{
+    font-weight: bolder;
+}
+
+.container{
+    background-color: olivedrab;
+    margin: 100px;
+} /** esto apunta a una CLASE */
+
+#primer-id{
+    display: inline;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+} /** esto apunta a un ID */
